@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas Audiovisuales</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="images/logo.png">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />                  
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script> 
+    <script>
+    	 $(document).ready(function() {
+			$("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true
+            });
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:9,
+                slideMargin: 0,
+                speed:500,
+                auto:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
+		});
+    </script>
+   
+
+
+</head>
+<body>
+    <header class="header-secundario">
+     <!--  <div id="particles-js"></div> -->
+     
+         <!--  <img class="logo1 " src="img/Logo azul Vari[2].png" alt=""> -->
+                <nav class="navbar menu-secundario" >
+                    <a class="navbar-brand" href="#">
+                        <img src="img/Logo azul Vari[2].png" width="120" height="60" alt="">
+                      </a>
+                    
+                   <div class="justify-content-end menu"">
+                        <a href="#">Inicio</a>
+                        <a href="#">Nosotros</a>
+                        <a href="#">Mercados</a>
+                        <a href="#">Noticias</a>
+                        <a href="#">Tienda</a>
+                        <a href="#">Contacto</a>
+                   </div >
+                </nav>   
+        
+    </header>
+
+  
+    <section class="portada">
+        <div class="row portada-titulo  justify-content-center align-items-center">
+            <p class="titulo-sec">Sistemas Audiovisuales</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+             <section>
+                <h2 class="ofrecemos">Te ofrecemos servicios en</h2>
+                 
+                <div class="row text-center fila ">
+                    <div class="col-6 cards">
+                        <img src="img/Proyeccion.png" class="servicio" alt="">
+                        <p><a href="#">Proyección en Arquitectura</a></p>
+                    </div>
+                    <div class="col-6 cards">
+                        <img src="img/Seguridad.png" class="servicio" alt="">
+                        <p><a href="#">Seguridad</a></p>
+                    </div>
+                </div>
+                <div class="row text-center fila">
+                    <div class="col-6 cards">
+                        <img src="img/Audiovisuales.png" class="servicio" alt="">
+                        <p><a href="#">Audiovisuales</a></p>
+                    </div>
+                    <div class="col-6 cards">
+                        <img src="img/Eventos.png" class="servicio" alt="">
+                        <p><a href="#">Eventos</a></p>
+                    </div>
+                </div>
+     
+             </section>
+     
+       
+     </main>
+ 
+     <section>
+        <h2 class="ofrecemos">Productos</h2>
+
+     </section>
+
+     <section>
+        <div class="container">
+            <div class="item">
+            <ul id="content-slider" class="content-slider">
+                <!--1---------------------------------> 
+                <li >
+                    <div class="card">
+                        <img src="images/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                </li>
+    
+                 <!--2---------------------------------> 
+                <li >
+                    <!--Box-slider-->
+                      <div class="box">
+                          <!--img-box-->
+                          <div class="slide-image">
+                              <img src="images/2.jpg" alt="">
+                              <a href="#" class="comprar-btn">Comprar Ahora</a>
+                          </div>
+                          <!--detail-box-->
+                          <div class="detail-box">
+                              <div class="tipo">
+                                  <a href="#">Rabbed Cardigan</a>
+                                  <span>Noe Arrival</span>                        
+                              </div>
+                              <a href="#" class="precio">$23</a>
+                          </div>
+                      </div>
+                </li>
+    
+                <!--3---------------------------------> 
+                <li >
+                <!--Box-slider-->
+                    <div class="box">
+                      <!--img-box-->
+                      <div class="slide-image">
+                          <img src="images/3.jpg" alt="">
+                          <a href="#" class="comprar-btn">Comprar Ahora</a>
+                      </div>
+                      <!--detail-box-->
+                      <div class="detail-box">
+                          <div class="tipo">
+                              <a href="#">Rabbed Cardigan</a>
+                              <span>Noe Arrival</span>                        
+                          </div>
+                          <a href="#" class="precio">$23</a>
+                      </div>
+                  </div>
+                </li>
+    
+                <!--4---------------------------------> 
+                <li >
+                    <!--Box-slider-->
+                    <div class="box">
+                        <!--img-box-->
+                        <div class="slide-image">
+                            <img src="images/4.jpg" alt="">
+                            <a href="#" class="comprar-btn">Comprar Ahora</a>
+                        </div>
+                        <!--detail-box-->
+                        <div class="detail-box">
+                            <div class="tipo">
+                                <a href="#">Rabbed Cardigan</a>
+                                <span>Noe Arrival</span>                        
+                            </div>
+                            <a href="#" class="precio">$23</a>
+                        </div>
+                    </div>
+                </li>
+    
+                <!--5---------------------------------> 
+                <li >
+                    <!--Box-slider-->
+                    <div class="box">
+                        <!--img-box-->
+                        <div class="slide-image">
+                            <img src="images/5.jpg" alt="">
+                            <a href="#" class="comprar-btn">Comprar Ahora</a>
+                        </div>
+                        <!--detail-box-->
+                        <div class="detail-box">
+                            <div class="tipo">
+                                <a href="#">Rabbed Cardigan</a>
+                                <span>Noe Arrival</span>                        
+                            </div>
+                            <a href="#" class="precio">$23</a>
+                        </div>
+                    </div>
+                </li>
+    
+                <!--6---------------------------------> 
+                <li >
+                    <!--Box-slider-->
+                    <div class="box">
+                        <!--img-box-->
+                        <div class="slide-image">
+                            <img src="images/6.jpg" alt="">
+                            <a href="#" class="comprar-btn">Comprar Ahora</a>
+                        </div>
+                        <!--detail-box-->
+                        <div class="detail-box">
+                            <div class="tipo">
+                                <a href="#">Rabbed Cardigan</a>
+                                <span>Noe Arrival</span>                        
+                            </div>
+                            <a href="#" class="precio">$23</a>
+                        </div>
+                    </div>
+                </li>
+    
+                <!--7---------------------------------> 
+                <li >
+                    <!--Box-slider-->
+                    <div class="box">
+                        <!--img-box-->
+                        <div class="slide-image">
+                            <img src="images/7.jpg" alt="">
+                            <a href="#" class="comprar-btn">Comprar Ahora</a>
+                        </div>
+                        <!--detail-box-->
+                        <div class="detail-box">
+                            <div class="tipo">
+                                <a href="#">Rabbed Cardigan</a>
+                                <span>Noe Arrival</span>                        
+                            </div>
+                            <a href="#" class="precio">$23</a>
+                        </div>
+                    </div>
+                </li>
+    
+                <!--8---------------------------------> 
+                <li >
+                    <!--Box-slider-->
+                    <div class="box">
+                        <!--img-box-->
+                        <div class="slide-image">
+                            <img src="images/8.jpg" alt="">
+                            <!--overlayer-->
+                            <a href="#" class="comprar-btn">Comprar Ahora</a>
+                            
+                        </div>
+                        <!--detail-box-->
+                        <div class="detail-box">
+                            <div class="tipo">
+                                <a href="#">Rabbed Cardigan</a>
+                                <span>Noe Arrival</span>                        
+                            </div>
+                            <a href="#" class="precio">$23</a>
+                        </div>
+                    </div>
+                </li>
+    
+    
+                
+             </ul>
+    
+             </div>
+        </div>
+         
+     </section>
+
+
+
+
+    </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    
+</body>
+</html>

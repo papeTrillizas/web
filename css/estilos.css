@@ -1,0 +1,573 @@
+@font-face {
+    font-family: 'Dubai Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dubai Regular'), url('../fonts/Dubai-Regular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Dubai Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dubai Light'), url('../fonts/Dubai-Light.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Dubai Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dubai Medium'), url('../fonts/Dubai-Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Dubai Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dubai Bold'), url('../fonts/Dubai-Bold.woff') format('woff');
+    }
+
+
+body{
+    margin: 0px;
+}
+
+nav{
+    
+    text-align: end;
+    margin-right: 5%;
+    padding-top: 10px;
+    
+}
+
+
+/*OTRAS PAGINAS */
+.menu-secundario {
+    background: #1A4858;
+    
+}
+
+.header-secundario{
+    background: #1A4858;   
+}
+
+
+.logo1{
+    width: 10%;
+}
+
+nav a {
+    padding: 1rem;    
+    color: #9217CE
+
+}
+
+.menu a {
+    font-size: 2rem;
+}
+
+.menu a:hover {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #44B0DE;
+}
+
+@media (max-width: 567px) { 
+    .menu a {
+        font-size: 1.2rem;
+    } 
+ }
+
+
+#particles-js{
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.header-principal{
+    position: relative;
+    z-index: 99;
+    height: 90vh;
+    /* background: #1A4858; */
+    margin-bottom: 80px;
+
+}
+
+.logo{
+    width: 40%;
+    padding-top: 30px;
+}
+
+.eslogan{
+    color: #000;
+    margin-top: 3%;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+@media (max-width: 1200px) { 
+    main{
+        background: #9217CE;
+        background-image: url(../img/main-fondo-md.png);
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+    
+    #particles-js{
+        height: 70vh;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .header-principal{
+        position: relative;
+        z-index: 99;
+        height: 70vh;
+        /* background: #1A4858; */
+        margin-bottom: 0px;
+    
+    }
+
+    .eslogan{
+        color: #000;
+        margin-top: 3%;
+        font-size: 2rem;
+        text-align: center;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+ }
+
+ @media (max-width: 768px) { 
+    main{
+        background: #9217CE;
+        background-image: url(../img/main-fondo-md.png);
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    
+    #particles-js{
+        height: 40vh;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .header-principal{
+        position: relative;
+        z-index: 99;
+        height: 40vh;
+        /* background: #1A4858; */
+        margin-bottom: 0px;
+    
+    }
+
+    .eslogan{
+        display: none;
+        
+    }
+
+    .logo{
+        width: 60%;
+        padding-top: 0px;
+    }
+
+    
+    
+ }
+
+.somos p {
+    font-size: 2rem;
+    color: #fff;
+}
+
+@media (max-width: 567px) { 
+    .somos p {
+        font-size: 2rem;
+        color: #9217CE;
+    }
+
+    #particles-js{
+        height: 30vh;
+       
+    }
+    
+    .header-principal{
+        
+        height: 30vh;
+        /* background: #1A4858; */
+        margin-bottom: 0px;
+    
+    }
+
+    .logo{
+        width: 70%;
+        padding-top: 0px;
+    }
+ }
+
+h2{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Dubai Light', sans-serif; */
+    font-family: 'Acme', sans-serif;
+    text-transform:uppercase;
+    font-size: 5.5rem;
+    color: #fff;
+    
+}
+
+h3{
+    font-size: 4.5rem;
+    /* font-family: 'Dubai Bold', sans-serif; */
+    font-family: 'Acme', sans-serif;
+    color: #fff;
+}
+
+main{
+    background: #9217CE;
+    background-image: url(../img/main-fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 50px;
+}
+
+.tenemos{
+    margin-top: 60px;
+}
+
+.mercados, .productos{
+    margin-top: 40px;
+    border: 3px solid rgb(165, 164, 164);
+}
+
+.titulo-mercado{
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+ul {
+    list-style: none;
+    align-self: center;
+    padding-right: 20px;
+    list-style-image: url('../img/chevron-abajo.png');
+}
+
+li{
+    
+    font-size: 2.4rem;
+    padding: 10px;
+    /* margin-left: 20px; */
+    /* font-family: 'Dubai Medium', sans-serif; */
+    font-family: 'Acme', sans-serif;
+}
+
+li a {
+    color: #fff;
+}
+
+li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.imagen-card{
+    padding: 0px;
+    margin-top: 0px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+@media (max-width: 1200px) { 
+    main{
+        background: #9217CE;
+        background-image: url(../img/main-fondo-md.png);
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+    
+    .container p {
+      
+        margin-top: 10px;
+        padding: 0 20px;
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 3.5rem;        
+    }
+    
+    h3{
+        font-size: 3.5rem;        
+    }
+
+    li{    
+        font-size: 2rem;
+        padding: 10px;    
+    }
+   
+}
+
+@media (max-width: 992px) { 
+    main{
+        background: #9217CE;
+        background-image: url(../img/main-fondo-md.png);
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        padding-bottom: 80px;
+        
+    }
+    
+    .container {
+       /*  margin-right: 150px;
+        margin-left: 50px; */
+    }
+
+    .container p {
+      
+        margin-top: 10px;
+        padding: 0 5px;
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 3rem;        
+    }
+    
+    h3{
+        font-size: 2.7rem;        
+    }
+
+    li{    
+        font-size: 1.5rem;
+        /* padding: 10px; */       
+    }
+   
+}
+
+@media (max-width: 768px) { 
+    main{
+        background: #9217CE;
+        background-image: url(../img/main-fondo-md.png);
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+    
+    .container {
+       /*  margin-right: 150px;
+        margin-left: 50px; */
+    }
+
+    .container p {
+      
+        margin-top: 10px;
+        padding: 0 5px;
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 3rem;        
+    }
+    
+    h3{
+        font-size: 2.7rem;        
+    }
+
+    li{    
+        font-size: 1.5rem;
+        /* padding: 10px; */       
+    }
+
+    .redes a {
+      
+        font-size: 30px;
+        /* margin: 0 20px; */    
+    }
+
+ }
+
+
+ @media (max-width: 567px) { 
+    main{
+        background: #CD6BFF;
+    }
+
+    h2{
+        font-size: 2.5rem;        
+    }
+    h3{
+        font-size: 2.3rem;
+    }
+
+ }
+
+
+
+
+.horarios{
+    background-image: url(../img/tablero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    
+}
+
+.horario-titulo{
+    padding-top: 20px;
+}
+.hora{
+    color: #000;
+    font-size: 6rem;
+    font-family: 'Dubai Bold', sans-serif;
+}
+
+.minh-100{
+    height: 80vh;
+}
+
+.horario {
+    width: 1000px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.horario .table {
+    color: #000;
+    border: 2px solid #9217CE;
+}
+
+.horario .table thead {
+   background-color: #9217CE;
+}
+
+.horario .table thead tr th {
+   font-size: 2.2rem;
+ }
+
+.horario .table td,
+.horario .table thead th {
+    border: none;
+}
+
+.horario .table tbody tr td {
+    padding: .35rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.2rem;
+    
+}
+
+@media (max-width: 992px) { 
+    .horario {
+        width: 600px;
+        background-color: transparent;
+        color: #ffffff;
+    }
+   
+}
+
+
+@media (max-width: 567px) { 
+    .horario {
+        width: 500px;
+        background-color: transparent;
+        color: #ffffff;
+    }
+
+    .horario .table tbody tr td {
+        color: #9217CE;
+        
+    }
+
+    .maps2{
+        display: none;
+    }
+
+    .hora{
+        color: #000;
+        font-size: 4rem;
+        font-family: 'Dubai Bold', sans-serif;
+    }
+    
+ }
+
+
+.horarios-dias , .horarios-hora {
+    color: #9217CE;
+    font-family: 'Dubai Bold', sans-serif;
+    font-size: 2rem;
+}
+
+
+
+footer{
+    background: #9217CE;
+    height: auto;
+}
+
+.contacto{
+    color: #fff;
+   
+}
+
+
+
+.redes a {
+    color: #fff;
+    /* text-align: center; */
+    width: 200px;
+    display:inline-block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 70px;
+    /* margin: 0 20px; */    
+}
+
+.mail:hover {background: #ea4335;}
+.facebook:hover {background: #3b5998;}
+.whats:hover {background: #25d366;}
+
+
+@media (max-width: 992px) { 
+    .maps-1{
+        display: none;
+    }
+   
+}
+
+@media (max-width: 567px) { 
+    .redes a {
+       
+        width: 80px;
+        
+        font-size: 40px;
+         
+    } 
+ }
